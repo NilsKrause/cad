@@ -1,0 +1,3 @@
+[submodule "gridfinity"]
+	path = libs/gridfinity
+	url = git@github.com:kennetek/gridfinity-rebuilt-openscad.git
