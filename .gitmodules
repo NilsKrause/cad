@@ -1,3 +1,6 @@
 [submodule "gridfinity"]
 	path = libs/gridfinity
 	url = git@github.com:kennetek/gridfinity-rebuilt-openscad.git
+[submodule "round-anything"]
+	path = libs/round-anything
+	url = git@github.com:Irev-Dev/Round-Anything.git
