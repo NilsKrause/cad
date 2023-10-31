@@ -5,6 +5,17 @@ include <libs/gridfinity/standard.scad>
 $fa = 8;
 $fs = 0.25;
 
+// module gridfinityBase(gx, gy, l, dx, dy, style_hole, off=0, final_cut=true, only_corners=false) {
+module sv03Base (gridx=3, gridy=3, offCenter=true) {
+    translate([
+            offCenter ? (gridx * l_grid) / 2 : 0,
+            offCenter ? (gridy * l_grid) / 2 : 0,
+            0
+        ]) {
+        gridfinityBase(gridx, gridy, l_grid, 0, 0, 0);
+    }
+}
+
 module sv03Baseplate(gridx=3, gridy=3, plate=0, holes=2, fit=[0,0], fitDirection=[0,0], offCenter=true) {
 
     /* [General Settings] */
