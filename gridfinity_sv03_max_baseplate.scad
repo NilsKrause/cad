@@ -5,7 +5,6 @@ include <libs/gridfinity/standard.scad>
 $fa = 8;
 $fs = 0.25;
 
-// you have to define gridx and gridy in your script, otherwise those will get overwritten by the gridfinity-rebuild-utility.scad script.
 module sv03Baseplate(gridx=3, gridy=3, plate=0, holes=2, fit=[0,0], fitDirection=[0,0], offCenter=true) {
 
     /* [General Settings] */
