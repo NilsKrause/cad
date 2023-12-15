@@ -4,3 +4,6 @@
 [submodule "round-anything"]
 	path = libs/round-anything
 	url = git@github.com:Irev-Dev/Round-Anything.git
+[submodule "libs/nopscad"]
+	path = libs/nopscad
+	url = https://github.com/nophead/NopSCADlib
