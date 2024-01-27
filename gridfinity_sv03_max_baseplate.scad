@@ -12,7 +12,7 @@ module sv03Base (gridx=3, gridy=3, offCenter=true) {
             offCenter ? (gridy * l_grid) / 2 : 0,
             0
         ]) {
-        render (360) {
+        render (30) {
             gridfinityBase(gridx, gridy, l_grid, 0, 0, 0);
         }
     }
@@ -62,7 +62,7 @@ module sv03Baseplate(gridx=3, gridy=3, plate=0, holes=2, fit=[0,0], fitDirection
 
 
     // ===== IMPLEMENTATION ===== //
-    render(360) {
+    render(30) {
         translate([
             offCenter ? (gridx * l_grid) / 2 : 0,
             offCenter ? (gridy * l_grid) / 2 : 0,
